@@ -1,0 +1,37 @@
+.contain-header {
+  width: 100%;
+  overflow: hidden; 
+    /* background-color: rgba(40,40,660,.5)*/}
+    .main-header {
+      min-height:100vh;
+      display:block;
+        color:white;
+padding: 13px;
+
+}
+
+        video#bgvid {
+          position:absolute;
+          top:50%;
+          left:50%;
+          min-width:100%;
+          min-height:100%;
+          width:auto;
+          height:auto;
+          z-index:-100;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+            
+            
+        }
+        video {
+          display:block;
+        }
+        
+.h{
+    text-align: justify;
+    }   
+        
+        

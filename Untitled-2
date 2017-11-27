@@ -1,0 +1,36 @@
+ <div>
+    <br><br><br><br>
+   
+
+<script>
+function showHint(str) {
+    if (str.length == 0) { 
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET", "gethint.php?q=" + str, true);
+        xmlhttp.send();
+    }
+}
+</script>
+
+<br><br><br><br><br>
+<div class="b">
+<p><b>Find Info Employe:</b></p>
+<form> 
+First name: <input type="text" size="14" onkeyup="showHint(this.value)">
+</form>
+<p>Details: <span id="txtHint"></span></p>
+
+<a href="moredetails.html">more read</a>
+<a href="studentname.html">Student Name</a>
+</div>
+    </div>
+    
+ <br><br><br><br><br><br><br><br><br><br><br>

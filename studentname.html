@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<title>Code Book</title>
+    <link rel="shortcut icon" href="img/codebook%20logo.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet" type="text/css">
+    <link href="tab.css" rel="stylesheet" type="text/css">
+    <script src="javascrip/tab.js"></script>
+    <link rel="stylesheet" href="css/circle-menu.min.css">
+   
+    <style>
+        
+        body {
+    font: 14px Verdana, sans-serif;
+}
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: lightsteelblue;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+    color: black;
+}
+        a {
+            text-decoration: none;
+            
+        }
+        
+        .table1 {
+            background-color:rgba(93,99,199,0.5);
+            padding: 5px;
+        }  
+    </style>
+<body>
+       
+    
+<div class="b">
+    <a href="index.html"> <img src="img/code%20book%20bannar.png" alt="logo" width="20%" height="105px" class="logo" ></a>
+    <div style="float:right; font-size:44px; color:white; text-shadow:3px 3px 3px black;">&nbsp;</div> 
+    
+      <!--login-->
+    
+    <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;float:right; box-shadow: 0px 1px 6px 1px black" class="but">Login</button>
+
+<div id="id02" class="modal" >
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+     <!-- <img src="" alt="Avatar" class="avatar">--><b>CODE BOOK</b>
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div> <div style="float:right; width:15px;">&nbsp;</div> 
+    <!--login-->
+    <!--sign up-->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;float:right; box-shadow: 0px 1px 6px 1px black" class="but">Sign Up</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+      <p style="text-align:center"><b>CODE BOOK</b><br><span onclick="document.getElementById('id01').style.display='none'" class="close1" title="Close Modal">&times;</span></p>
+      <div class="container">
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">Cancel</button>
+        <button type="submit" class="signupbtn1">Sign Up</button>
+      </div>
+    </div>
+  </form>
+    
+</div>
+    <!--<div style="" class="hicon"><a href="index.html"> &#8679;&nbsp;</a></div>--> 
+</div>
+     
+   <!--header end-->
+    <br><br><br><br>
+    <div>
+     <div class="table1">
+    
+        
+
+
+
+
+<h1 >Student Name</h1>
+
+<table>
+<tr>
+  <th>NAME</th>
+  <th>City</th>
+  <th>Country</th>
+</tr>
+<tr>
+  <td>Romman Ahmed</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+<tr>
+  <td>Maskur Hasan</td>
+  <td>Sylhet</td>
+  <td>Bangladesh</td>
+</tr>
+<tr>
+  <td>Mohammad Tai</td>
+  <td>Gujrat</td>
+  <td>India</td>
+</tr>
+<tr>
+  <td>Kevin Pedry</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+    <tr>
+  <td>Romman Ahmed</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+<tr>
+  <td>Maskur Hasan</td>
+  <td>Sylhet</td>
+  <td>Bangladesh</td>
+</tr>
+<tr>
+  <td>Mohammad Tai</td>
+  <td>Gujrat</td>
+  <td>India</td>
+</tr>
+<tr>
+  <td>Kevin Pedry</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+    <tr>
+  <td>Romman Ahmed</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+<tr>
+  <td>Maskur Hasan</td>
+  <td>Sylhet</td>
+  <td>Bangladesh</td>
+</tr>
+<tr>
+  <td>Mohammad Tai</td>
+  <td>Gujrat</td>
+  <td>India</td>
+</tr>
+<tr>
+  <td>Kevin Pedry</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+    <tr>
+  <td>Romman Ahmed</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+<tr>
+  <td>Maskur Hasan</td>
+  <td>Sylhet</td>
+  <td>Bangladesh</td>
+</tr>
+<tr>
+  <td>Mohammad Tai</td>
+  <td>Gujrat</td>
+  <td>India</td>
+</tr>
+<tr>
+  <td>Kevin Pedry</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr><tr>
+  <td>Romman Ahmed</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+<tr>
+  <td>Maskur Hasan</td>
+  <td>Sylhet</td>
+  <td>Bangladesh</td>
+</tr>
+<tr>
+  <td>Mohammad Tai</td>
+  <td>Gujrat</td>
+  <td>India</td>
+</tr>
+<tr>
+  <td>Kevin Pedry</td>
+  <td>New York</td>
+  <td>USA</td>
+</tr>
+    
+</table>
+   <br>
+</div>
+    </div>
+ <br><br><br><br><br><br><br><br><br><br><br>
+       
+    
+ 
+       <footer>
+           <div class="floating-box1"><a href="https://www.facebook.com/Code-Book-284475575327954/?fref=mentions"> <img src="img/social-icons-retina2x.png" alt="" width="150px";></a></div>
+           <div class="floating-box2"> Copyright by Code Book 2017 | Desinged by MH Jafory</div>
+           
+        </footer> 
+
+    <nav class="c-circle-menu js-menu">
+  <button class="c-circle-menu__toggle js-menu-toggle">
+    <span>Toggle</span>
+  </button>
+  <ul class="c-circle-menu__items">
+    <li class="c-circle-menu__item">
+      <a href="about%20us.html" class="c-circle-menu__link">
+        <img src="img/aboutus.png" alt="about us">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="idea.html" class="c-circle-menu__link">
+        <img src="img/idea.png" alt="idea">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="studentname.html" class="c-circle-menu__link">
+        <img src="img/student.png" alt="Students">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="teachers.html" class="c-circle-menu__link">
+        <img src="img/teacher.png" alt="teacher">
+      </a>
+    </li>
+    <li class="c-circle-menu__item">
+      <a href="index.html" class="c-circle-menu__link">
+        <img src="img/home.png" alt="home">
+      </a>
+    </li>
+  </ul>
+  <div class="c-circle-menu__mask js-menu-mask"></div>
+</nav>
+    
+    
+    <script src="javascrip/circleMenu.min.js"></script>
+<script>
+  var el = '.js-menu';
+  var myMenu = cssCircleMenu(el);
+</script>
+
+ 
+
+
+
+    </body>
+</html>

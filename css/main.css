@@ -1,0 +1,177 @@
+
+    .w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}90%{opacity:1}100%{opacity:0};}
+        .w3-section{text-align: center;
+            padding: 13px;
+           
+            }
+        #d {
+            text-align: center;
+            color:yellow;
+            font-weight: bold;
+            font-size: 44px;
+        }
+        .b {
+            background-color:rgba(255,255,255,0.4);
+            height: 57px;
+            box-shadow: 34px 4px 34px rgba(44,44,444,0.5) ;
+            border: 2px solid white;
+            
+        
+        }
+       audio { 
+   display:none;
+}
+footer {
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 3px 3px 22px 6px white;
+    border: 2px solid white;
+    border-radius: 0px 0px 60px 60px;
+    height: 63px;
+}
+
+
+
+
+
+@media screen and ( max-width: 600px) {
+     #bgvid{
+    visibility: hidden;
+}
+   
+    .foot {
+        
+         height:76px;  
+    }
+    
+footer {
+         font-size: 12px;
+     }
+
+
+
+
+
+    .box3{
+    font-size: 11px;
+    margin-left: 180px;
+}
+
+}
+
+ @media screen and (max-height: 1200px) {
+     
+    
+     
+      .foot {
+    height:399px;
+  }
+     
+     
+     .social{
+         margin-left: 34%;
+         margin-bottom: 33px;
+         width: 100px;
+     } 
+     
+     .fadd {
+        
+    margin-right: 7px;
+        float: none;
+        font-size: 11px;
+     }
+     
+     .p1{
+         font-size: 13px;}
+     
+
+.box3{
+    font-size: 11px;
+    margin-left: 80px;
+     }
+     
+}
+
+
+
+.floating-box1 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+     
+    float: left;
+}
+
+.floating-box2 {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+     font-size: 12px;
+    float: right;
+}
+
+
+#h {
+    
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    {background-color: aqua;}
+    to {background-color: blue;}
+}
+
+
+@keyframes mymove {
+    from {background-color: red;}
+    {background-color: aqua;}
+    to {background-color: blue;}
+}
+
+
+
+#h {
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymve {
+    50% {text-shadow: 10px 20px 30px white;}
+}
+
+/* Standard syntax */
+@keyframes mymve {
+    50% {text-shadow: 10px 20px 30px white;}
+}
+
+
+#myDIV {
+   
+    background-color: none;
+    color: white;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymov 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymov {
+    50% {box-shadow: 10px 20px 30px blue;}
+}
+
+/* Standard syntax */
+@keyframes mymov {
+    50% {box-shadow: 10px 20px 30px blue;}
+}
+
+
+
+/*<video autoplay loop poster="img/video/central-park-.jpg" id="bgvid">
+        <source src="video/Notebook%20-%206378.mp4" type="video/mp4" />
+      </video>*/
